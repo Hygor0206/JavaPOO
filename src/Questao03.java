@@ -48,11 +48,11 @@ public class Questao03 {
         double[] angulos = new double[3];
         int[] lados = new int[3];
         for (int i = 0; i < angulos.length; i++) {
-            System.out.printf("Digite o %i º angulo:", (i+1));
+            System.out.println("Digite o valor do "+(i+1)+"º angulo:");
             angulos[i]=input.nextDouble();
         }
         for (int i = 0; i < lados.length; i++) {
-            System.out.printf("Digite o %iº angulo:", (i+1));
+            System.out.println("Digite o valor do "+(i+1)+"º lado:");
             lados[i]=input.nextInt();
         }
 
