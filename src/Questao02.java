@@ -10,5 +10,6 @@ public class Questao02 {
         double quantidadekW = input.nextDouble();
         System.out.printf("Conforme o salario minimo informado, cada kW custa em torno de: %.2f\n", (vlrSalarioMinimo*0.01));
         System.out.printf("A residencia deve pagar um total de %.2f pela quantidade de kW utilizada", ((vlrSalarioMinimo*0.01)*quantidadekW)); 
+        input.close();
     }
 }
