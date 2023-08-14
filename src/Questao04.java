@@ -6,15 +6,13 @@ public class Questao04 {
     }
 
     public static double calcValor(int quantidade, double valor){
-        double valorTotal=0;
         if(quantidade*valor<250){
-            valorTotal=(quantidade*valor)-((quantidade*valor)*0.05);
+            return (quantidade*valor)-((quantidade*valor)*0.05);
         }else if(quantidade*valor<500){
-            valorTotal=(quantidade*valor)-((quantidade*valor)*0.10);
+            return (quantidade*valor)-((quantidade*valor)*0.10);
         }else{
-            valorTotal=(quantidade*valor)-((quantidade*valor)*0.15);
+            return (quantidade*valor)-((quantidade*valor)*0.15);
         }
-        return valorTotal;
     }
 
     public static void main(String[] args) {
