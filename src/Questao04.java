@@ -8,11 +8,11 @@ public class Questao04 {
     public static double calcValor(int quantidade, double valor){
         double produto=quantidade*valor;
         if(produto<250){
-            return produto-((produto)*0.05);
+            return produto-(produto*0.05);
         }else if(produto<500){
-            return produto-((produto)*0.10);
+            return produto-(produto*0.10);
         }else{
-            return produto-((produto)*0.15);
+            return produto-(produto*0.15);
         }
     }
 
