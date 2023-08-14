@@ -15,7 +15,7 @@ public class Questao01{
         System.out.println("Quanto voce ganha por hora?");
         double vlrHoras = teclado.nextDouble();
         double salLiquido=calcSalario(horas, vlrHoras);
-        System.out.printf("O salario a receber será %.2f", salLiquido);
+        System.out.printf("O salario a receber será %.2f\n", salLiquido);
         teclado.close();
     }
 }
