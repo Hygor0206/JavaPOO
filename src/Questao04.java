@@ -31,7 +31,7 @@ public class Questao04 {
         }else if(range(codigo, 31, 40)){
             System.out.printf("O valor total será de R$%.2f\n", calcValor(quantidade, 40));
         }else{
-            System.out.println("Este codigo de protudo nao existe");
+            System.out.println("Este codigo de produdo nao existe");
         }
         input.close();
     }
