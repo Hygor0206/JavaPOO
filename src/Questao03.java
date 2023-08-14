@@ -40,7 +40,7 @@ public class Questao03 {
             tipoLado="Equilatero";
         }
 
-        System.out.printf("Este e um triangulo %s %s", tipoAngulo, tipoLado);
+        System.out.printf("Este e um triangulo %s %s\n", tipoAngulo, tipoLado);
     }
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -48,11 +48,11 @@ public class Questao03 {
         double[] angulos = new double[3];
         int[] lados = new int[3];
         for (int i = 0; i < angulos.length; i++) {
-            System.out.println("Digite o valor do "+(i+1)+"º angulo:");
+            System.out.printf("Digite o valor do %dº angulo:\n",(i+1));
             angulos[i]=input.nextDouble();
         }
         for (int i = 0; i < lados.length; i++) {
-            System.out.println("Digite o valor do "+(i+1)+"º lado:");
+            System.out.printf("Digite o valor do %dº lado:\n",(i+1));
             lados[i]=input.nextInt();
         }
 
