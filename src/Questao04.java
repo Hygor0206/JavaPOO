@@ -23,17 +23,13 @@ public class Questao04 {
         System.out.printf("Quantos produdos de codigo %d foram comprados?\n", codigo);
         int quantidade = input.nextInt();
         if(range(codigo, 1, 10)){
-            double valorTotal=calcValor(quantidade, 10);
-            System.out.printf("O valor total será de R$%.2f\n", valorTotal);
+            System.out.printf("O valor total será de R$%.2f\n", calcValor(quantidade, 10));
         }else if(range(codigo, 11, 20)){
-            double valorTotal=calcValor(quantidade, 15);
-            System.out.printf("O valor total será de R$%.2f\n", valorTotal);
+            System.out.printf("O valor total será de R$%.2f\n", calcValor(quantidade, 15));
         }else if(range(codigo, 21, 30)){
-            double valorTotal=calcValor(quantidade, 20);
-            System.out.printf("O valor total será de R$%.2f\n", valorTotal);
+            System.out.printf("O valor total será de R$%.2f\n", calcValor(quantidade, 20));
         }else if(range(codigo, 31, 40)){
-            double valorTotal=calcValor(quantidade, 40);
-            System.out.printf("O valor total será de R$%.2f\n", valorTotal);
+            System.out.printf("O valor total será de R$%.2f\n", calcValor(quantidade, 40));
         }else{
             System.out.println("Este codigo de protudo nao existe");
         }
