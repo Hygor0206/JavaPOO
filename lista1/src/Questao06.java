@@ -18,5 +18,6 @@ public class Questao06 {
         }else{
             System.err.printf("Fatorial %d", fatoria(numFatorial));
         }
+        input.close();
     }
 }
