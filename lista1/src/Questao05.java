@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class Questao05 {
-    static final int TIME=1;
-    static final int JOGADORES=2;
+    static final int TIME=5;
+    static final int JOGADORES=11;
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
