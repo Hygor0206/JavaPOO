@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Question07 {
+public class Questao07 {
     public static int fatorial(int num){
         if(num==0) return 1;
         int fatorial=1;
