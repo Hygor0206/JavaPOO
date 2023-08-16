@@ -20,9 +20,10 @@ public class Questao07 {
             int max = input.nextInt();
             if(min>max){
                 System.out.println("O ultimo numero precisa ser maior que ou igual ao maximo (MIN<=MAX). Por favor reinicie o programa.");
+            }else{
+                for (int i = min; i <= max; i++) {
+                System.out.printf("Fatorial de %d é: %d\n", i, fatorial(i));
             }
-            for (int i = min; i <= max; i++) {
-            System.out.printf("Fatorial de %d é: %d\n", i, fatorial(i));
         }
         }
         input.close();
