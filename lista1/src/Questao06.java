@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Questao06 {
-    public static int fatoria(int num){
+    public static int fatorial(int num){
         if(num==0) return 1;
         int fatorial=1;
         for (int i = 1; i <= num; i++) {
@@ -16,7 +16,7 @@ public class Questao06 {
         if(numFatorial<0){
             System.out.println("Apenas nummeros positivos sao aceitos. Reinicie o programa");
         }else{
-            System.err.printf("Fatorial %d", fatoria(numFatorial));
+            System.err.printf("Fatorial %d", fatorial(numFatorial));
         }
         input.close();
     }
