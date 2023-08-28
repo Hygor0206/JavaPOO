@@ -57,8 +57,7 @@ public class Questao03 {
         }
 
         // Chacagem se é um triagulo
-        boolean eTriangulo=checarTriangulo(angulos, lados);
-        if(eTriangulo){
+        if(checarTriangulo(angulos, lados)){
             tipoTriangulo(angulos, lados);
         }else{
             System.out.println("Isso nao e um triangulo");
