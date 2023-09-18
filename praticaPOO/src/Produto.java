@@ -3,7 +3,6 @@ public class Produto {
     double valor;
     int qtdEstoque;
 
-
     public String getNome() {
         return this.nome;
     }
