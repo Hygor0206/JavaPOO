@@ -58,4 +58,13 @@ public class ContaCorrente {
         }else
             return false;
     }
-}
+
+    public boolean transferir(double valor, ContaCorrente cc){
+        if(valor>0&&valor<=getSaldo()){
+            this.sacar(valor);
+            cc.deposito(valor);
+            return true;
+        }else
+            return false;
+    }
+}   
