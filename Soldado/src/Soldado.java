@@ -1,7 +1,7 @@
 public class Soldado {
     private static int numSoldados = 0;
-    private final String armaPadrao = "fuzil";
-    private final int distanciaPadrao = 10;
+    private final String ARMA_PADRAO = "fuzil";
+    private final int DISTANCIA_PADRAO = 10;
     private String arma;
 
     public Soldado() {
@@ -12,7 +12,7 @@ public class Soldado {
         if (distancia > 0) {
             System.out.println("O soldado se moveu " + distancia + " metros.");
         } else if(distancia==0){
-            System.out.println("O soldado se moveu " + distanciaPadrao + " metros.");
+            System.out.println("O soldado se moveu " + DISTANCIA_PADRAO + " metros.");
         }else{
             System.out.println("Distância inválida.");
         }
@@ -21,7 +21,7 @@ public class Soldado {
     public void atacar(String arma) {
         if (numSoldados >= 10) {
             if (arma == null) {
-                this.arma = armaPadrao;
+                this.arma = ARMA_PADRAO;
             } else {
                 this.arma = arma;
             }
