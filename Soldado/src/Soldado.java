@@ -1,18 +1,17 @@
 public class Soldado {
     private static int numSoldados = 0;
     private final String armaPadrao = "fuzil";
-    private final int distanciaPadrao = "10";
+    private final int distanciaPadrao = 10;
     private String arma;
-    private double distanciaPadrao = 10.0;
 
     public Soldado() {
         numSoldados++;
     }
 
-    public void mover(double distancia) {
+    public void mover(int distancia) {
         if (distancia > 0) {
             System.out.println("O soldado se moveu " + distancia + " metros.");
-        } else if(distancia==null){
+        } else if(distancia==0){
             System.out.println("O soldado se moveu " + distanciaPadrao + " metros.");
         }else{
             System.out.println("Distância inválida.");
