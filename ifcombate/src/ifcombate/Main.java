@@ -8,7 +8,7 @@ public class Main {
 		
 		Batalha adeus = new Batalha(russia, ucrania);
 		
-		while(adeus.jogar()) {						
+		while(adeus.jogar()) {					
 			System.out.println("=============");
 			System.out.println("Rússia: " + russia);
 			System.out.println("Ucrania: " + ucrania);
